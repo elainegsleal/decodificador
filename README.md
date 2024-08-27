@@ -1,4 +1,4 @@
-# decodificador
+# Decodificador
 Projeto Alura - Codificador e Decodificador
 
 Este projeto faz parte do desafio (CHALLENGE), desenvolvido durante o programa ONE - Oracle Next Education – Turma 2024.
