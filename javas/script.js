@@ -5,10 +5,10 @@ function criptografar(){
     var texto = textEntrada.value;
 
     var cripto = texto.replace(/e/g, "enter")
-                            .replace(/i/g, "izet")
-                            .replace(/a/g, "acor")
-                            .replace(/o/g, "orit")
-                            .replace(/u/g, "umet");
+                            .replace(/i/g, "imes")
+                            .replace(/a/g, "ai")
+                            .replace(/o/g, "ober")
+                            .replace(/u/g, "ufat");
 
     document.getElementById('resultado').innerHTML = '<textarea readonly id= "entrada-texto" >' + cripto +'</textarea>' + '<button class="btn-copiar" id="copiar"onclick="copiar()">copiar</button>';;
     
@@ -18,10 +18,10 @@ function descriptografar(){
     var texto = textEntrada.value;
 
     var descripto = texto.replace(/enter/g, "e")
-                               .replace(/izet/g, "i")
-                               .replace(/acor/g, "a")
-                               .replace(/orit/g, "o")
-                               .replace(/umet/g, "u");
+                               .replace(/imes/g, "i")
+                               .replace(/ai/g, "a")
+                               .replace(/ober/g, "o")
+                               .replace(/ufat/g, "u");
 
     document.getElementById('resultado').innerHTML = '<textarea readonly id="entrada-texto" >' + descripto + '</textarea>' +'<button class="btn-copiar" id="copiar"onclick="copiar()">copiar</button>';;
 }
